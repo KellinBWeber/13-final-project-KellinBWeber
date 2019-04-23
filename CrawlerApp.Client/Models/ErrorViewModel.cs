@@ -4,8 +4,8 @@ namespace CrawlerApp.Client.Models
 {
     public class ErrorViewModel
     {
-        public string RequestId { get; set; }
+        public string _RequestId { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(_RequestId);
     }
 }

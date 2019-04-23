@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using CrawlerApp.Console;
 
 namespace CrawlerApp.Test
 {
@@ -8,6 +9,7 @@ namespace CrawlerApp.Test
         [TestMethod]
         public void TestMethod1()
         {
+            
         }
     }
 }

@@ -12,3 +12,17 @@
 /Users/stringhamdb/Sandbox/weber-cs-org/cs4790/assignments/final/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.csproj.CopyComplete
 /Users/stringhamdb/Sandbox/weber-cs-org/cs4790/assignments/final/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.dll
 /Users/stringhamdb/Sandbox/weber-cs-org/cs4790/assignments/final/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.pdb
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.Console.deps.json
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.Console.runtimeconfig.json
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.Console.runtimeconfig.dev.json
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.Console.dll
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.Console.pdb
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.DataStore.dll
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/bin/Debug/netcoreapp2.2/CrawlerApp.DataStore.pdb
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.csprojAssemblyReference.cache
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.csproj.CoreCompileInputs.cache
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.AssemblyInfoInputs.cache
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.AssemblyInfo.cs
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.csproj.CopyComplete
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.dll
+C:/WEBER/2019Spring/CS4790/13-final-project-KellinBWeber/CrawlerApp.Console/obj/Debug/netcoreapp2.2/CrawlerApp.Console.pdb
