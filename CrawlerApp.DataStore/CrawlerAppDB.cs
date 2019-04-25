@@ -11,80 +11,78 @@ namespace CrawlerApp.DataStore
 {
     public class CrawlerAppDB
     {
-        private List<string> _linksForDatabase; //for storing all the links for database
+        //List to store links
+        private List<string> _linksForDB;
 
-        //set up data for inserting
-        public CrawlerAppDB(List<string> inputListForDatabase)
+        //setting up the data for the insert.
+        public CrawlerAppDB(List<string> inputList)
         {
-            _linksForDatabase = inputListForDatabase;
+            _linksForDB = inputList;
         }
 
-        //try to establish database connection
-        public int TestDbConn()
+        //establishing database connection
+        public bool TestDbConn()
         {
             string connectionString = null;
             SqlConnection cnn;
 
-            connectionString = "Server= (LocalDB)\\MSSQLLocalDB; Database= CS2550Tutor;Integrated Security = SSPI;";
+            connectionString = "Server= (LocalDB)\\MSSQLLocalDB; Database= CS4790Crawler;Integrated Security = SSPI;";
             cnn = new SqlConnection(connectionString);
             try
             {
                 cnn.Open();
-                System.Console.WriteLine("Successfully Established Database Connection!");
+                System.Console.WriteLine("Connection Successful.");
                 cnn.Close();
-                return 1;
+                return true;
             }
             catch (Exception ex)
             {
                 System.Console.WriteLine(ex);
-                return -1;
+                return false;
             }
         }
 
         public void Insert()
         {
-            string connetionString = null;
+            string connectionString = null;
             string sql = null;
             SqlCommand command;
             SqlConnection cnn;
-            connetionString = "Server= (LocalDB)\\MSSQLLocalDB; Database= CS2550Tutor;Integrated Security = SSPI; ";
+            connectionString = "Server= (LocalDB)\\MSSQLLocalDB; Database= CS4790Crawler;Integrated Security = SSPI; ";
             
-            using (cnn = new SqlConnection(connetionString))
+            using (cnn = new SqlConnection(connectionString))
             {
                 cnn.Open();
 
                 
-                sql = "INSERT INTO MyLinks (Link) VALUES (@Link)";
+                sql = "INSERT INTO Links (Link) VALUES (@Link)";
 
                 command = new SqlCommand(sql, cnn);
                 command.Parameters.AddWithValue("@Link", DbType.String);
 
-                foreach(var e in _linksForDatabase)
+                foreach(var e in _linksForDB)
                 {
                     command.Parameters[0].Value = e;
                     int result = command.ExecuteNonQuery();
 
                     if (result < 0)
                     {
-                        System.Console.WriteLine("Error inserting data into Database!");
+                        System.Console.WriteLine("Error on insert.");
                         cnn.Close();
                     }
                     else
                     {
-                        //use for testing success insert
-                        //System.Console.WriteLine("SUCCESSFULLY insert data into Database!");
+                        //TODO
                     }
                 }
 
-                System.Console.WriteLine("SUCCESSFULLY insert data into Database!");
+                System.Console.WriteLine("Data inserted into Database.");
                 cnn.Close();
             }
         }
-
-        //testing purpose
         public void printLinks()
         {
-            foreach (string e in _linksForDatabase)
+            foreach (string e in _linksForDB)
             {
                 System.Console.WriteLine(e);
             }
